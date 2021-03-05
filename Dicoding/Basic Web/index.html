@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tugas Akhir</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<header>
+    <div class="judul">
+        <b>Tugas Akhir Membuat Website</b>
+        <p>Dicoding Academy - Belajar Dasar Pemrograman Web</p>
+    </div>
+
+    <div class="jumbotron">
+        <h1>Pontianak</h1>
+        <h3>Kota Khatulistiwa, Kota Seribu Parit, Ibukota Kalimantan Barat</h3>
+    </div>
+</header>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#sejarah">Sejarah</a></li>
+            <li>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Wisata</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#tugu">Tugu Khatulistiwa</a>
+                        <a href="#istana">Istana Kadariah</a>
+                        <a href="#taman">Taman Alun-alun kapuas</a>
+                        <a href="#vihara">Vihara Bodhisatva Karaniya Metta</a>
+                        <a href="#radakng">Rumah Betang Radakng</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown2">
+                    <button onclick="myFunction2()" class="dropbtn2">Kuliner</button>
+                    <div id="myDropdown2" class="dropdown-content2">
+                        <a href="#choipan">Choipan</a>
+                        <a href="#kwecap">Kwecap</a>
+                        <a href="#cehuntiau">Ce Hun Tiau</a>
+                        <a href="#bakmi">Bakmi Kepiting</a>
+                        <a href="#sotong">Sotong Pangkong</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#saya" class="saya">Tentang saya</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="content">
+            <article id="sejarah" class="card">
+                <h2>Sejarah</h2>
+                <figure>
+                    <img src="./assets/image/istana.jpg" class="featured-image" alt="sejarah">
+                    <figcaption>Istana Kadariah Pontianak</figcaption>
+                </figure>
+                <p>Pada tanggal 24 Rajab 1181 Hijriah yang bertepatan pada tanggal 23 Oktober 1771 Masehi, rombongan Syarif Abdurrahman Alkadrie membuka hutan di persimpangan tiga Sungai Landak Sungai Kapuas Kecil dan Sungai Kapuas untuk mendirikan balai
+                    dan rumah sebagai tempat tinggal dan tempat tersebut diberi nama Pontianak. Berkat kepemimpinan Syarif Abdurrahman Alkadrie, Kota Pontianak berkembang menjadi kota Perdagangan dan Pelabuhan. Tahun 1192 Hijriah, Syarif Abdurrahman Alkadrie
+                    dinobatkan sebagai Sultan Pontianak Pertama. Letak pusat pemerintahan ditandai dengan berdirinya Mesjid Raya Sultan Abdurrahman Alkadrie dan Istana Kadariah, yang sekarang terletak di Kelurahan Dalam Bugis Kecamatan Pontianak Timur.</p>
+                <p>Adapun Sultan yang pernah memegang tampuk Pemerintahan Kesultanan Pontianak:</p>
+                <ol type="1">
+                    <li>Syarif Abdurrahman Alkadrie memerintah dari tahun 1771-1808</li>
+                    <li>Syarif Kasim Alkadrie memerintah dari tahun 1808-1819</li>
+                    <li>Syarif Osman Alkadrie memerintah dari tahun 1819-1855s</li>
+                    <li>Syarif Hamid Alkadrie memerintah dari tahun 1855-1872</li>
+                    <li>Syarif Yusuf Alkadrie memerintah dari tahun 1872-1895</li>
+                    <li>Syarif Muhammad Alkadrie memerintah dari tahun 1895-1944</li>
+                    <li>Syarif Thaha Alkadrie memerintah dari tahun 1944-1945</li>
+                    <li>Syarif Hamid Alkadrie memerintah dari tabun 1945-1950</li>
+                </ol>
+            </article>
+
+            <article id="wisata" class="card">
+                <h2>Wisata</h2>
+                <p>Pontianak, selain terkenal sebagai kota Khatulistiwa, juga mempunyai banyak destinasi wisata menarik untuk dikunjungi oleh wisatawan, beberapa diantaranya yakni:</p>
+                <ol type="1">
+                    <li>
+                        <h3><a href="./wisata.html#tugu" id="tugu">Tugu Khatulistiwa</a></h3>
+                    </li>
+                    <img src="./assets/image/khatulistiwa.jpg" alt="tugu" class="featured-image">
+                    <p>Tugu Khatulistiwa merupakan ikon dari Kalimantan Barat. Tugu ini terletak pada kecamatan Pontianak Utara dan berjarak sekitar 3 km dari pusat kota Pontianak. Disini, wisatawan bisa mendapatkan berbagai informasi seputar garis khatulistiwa
+                        yang melewati kota Pontianak, tepatnya pada Tugu Khatulistiwa ini.</p>
+
+                    <li>
+                        <h3 id="istana"><a href="./wisata.html#istana">Istana Kadariah</a></h3>
+                    </li>
+                    <img src="./assets/image/istana.jpg" alt="istana" class="featured-image">
+                    <p>Istana Kadariah merupakan keraton bekas Kesultanan Pontianak pada abad ke 17. Bangunan yang berwarna kuning ini sangat khas dengan etnis Melayu yang mendiami kota Pontianak.</p>
+                    <p>Pada Istana ini pula, masih terdapat banyak peninggalan sejarah asli kerajaan berupa meriam, singgasana, kaca pecah seribu, hingga foto-foto keluarga Sultan.</p>
+
+                    <li>
+                        <h3 id="taman">
+                            <a href="./wisata.html#taman">Taman Alun-alun Kapuas</a></h3>
+                    </li>
+                    <img src="./assets/image/alun-kapuas.jpg" alt="alun-kapuas" class="featured-image">
+                    <p>Taman yang berada pada pinggiran sungai terpanjang di Indonesia ini juga merupakan salah satu destinasi wisata yang wajib dikunjungi pada kota Pontianak. Wisatawan dapat berjalan-jalan santai menikmati indahnya matahari terbenam di
+                        pinggiran Sungai Kapuas. Wisatawan juga dapat menaiki 'sun-set cruise' untuk menikmati indahnya matahari terbenam sambil mengelilingi Sungai Kapuas.</p>
+                    <p>Pada sore hingga malam hari, terdapat pula banyak pedagang yang menjual jajanan-jajanan yang bisa dinikmati sambil menikmati pemandangan tepi Sungai Kapuas.</p>
+
+                    <li>
+                        <h3 id="vihara"><a href="./wisata.html#vihara">Vihara Bodhisatva Karaniya Metta</a> </h3>
+                    </li>
+                    <img src="./assets/image/vihara.jpg" alt="vihara" class="featured-image">
+                    <p>Vihara Bodhisatva Karaniya Metta merupakan salah satu tempat ibadah tertua bagi umat beragama Buddha di Pontianak. Berlokasi di Komplek Pasar Kapuas, Vihara ini sangat mudah ditemukan karena bangunannya yang bernuansa warna merah.</p>
+                    <p>Saat memasuki bangunan Vihara, pengunjung akan langsung merasakan nuansa religius dan filosofi yang sangat kental ditambah dengan ukiran di pintu dan ornamen yang sangat khas memberikan kesan indah dan megah, serta memiliki makna tersendiri.
+                        Bagi pengunjung yang ingin berdoa disini, pengurus Vihara akan membunyikan lonceng yang menandakan bahwa ada yang sedang berdoa.</p>
+
+                    <li>
+                        <h3 id="radakng">
+                            <a href="./wisata.html#radakng">Rumah Betang Radakng</a></h3>
+                    </li>
+                    <img src="./assets/image/Radakng.jpg" alt="radakng" class="featured-image">
+                    <p>Tempat wisata yang tidak kalah unik adalah Rumah Betang Radakng yang merupakan replika dari rumah adat Suku Dayak. Suku Dayak sendiri merupakan suku asli pulau Kalimantan.</p>
+                    <p>Rumah replika ini juga sempat menorehkan rekor sebagai rumah adat paling panjang. Rumah replika yang berada pada kawasan Kota Baru, Pontianak ini sering dijadikan sebagai tempat seni.</p>
+                </ol>
+            </article>
+
+            <article id="kuliner" class="card">
+                <h2>Kuliner</h2>
+                <p>Selain terkenal sebagai kota Khatulistiwa dan banyaknya tempat wisata unik, Pontianak juga terkenal akan tempat wisata kuliner yang tidak kalah uniknya.</p>
+                <p>Berikut adalah 5 kuliner yang wajib dicoba saat berkunjung ke Pontianak:</p>
+
+                <ol type="1">
+                    <li>
+                        <h3 id="choipan">Choipan / Chaikue</h3>
+                    </li>
+                    <img src="./assets/image/chaikue.jpg" alt="chaikue" class="featured-image">
+                    <p>Kuliner yang lebih banyak dikenal dengan nama Choipan ini merupakan salah satu makanan khas Pontianak. Makanan ini sendiri biasa dikenali dengan nama Chaikue di Pontianak, merupakan suatu jenis jajanan kukus yang berisikan banyak isian,
+                        termasuk beberapa diantaranya adalah bengkoang, kucai, keladi, rebung, hingga kacang kedelai. Makanan ini bisa disajikan langsung setelah dikukus ataupun bisa digoreng terlebih dahulu.</p>
+
+                    <li>
+                        <h3 id="kwecap">Kwecap</h3>
+                    </li>
+                    <img src="./assets/image/kwecap.jpg" alt="kwecap" class="featured-image" style="height: 550px; width: 700px;">
+                    <p>Makanan yang satu ini non-halal, dikarenakan oleh komposisinya yang berisikan kulit babi dan 'kwe' yang terbuat dari tepung beras.</p>
+
+                    <li>
+                        <h3 id="cehuntiau">Ce Hun Tiau</h3>
+                    </li>
+                    <img src="./assets/image/ce-hun-tiau.jpg" alt="cehuntiau" class="featured-image">
+                    <p>Makanan ini merupakan jenis makanan pencuci mulut yang cukup terkenal dan wajib untuk dicicipi ketika berkunjung ke Pontianak. Makanan ini disajikan dingin dengan berisikan mie sagu, kue bongko, cincau, ketan hitam, kacang merah, santan,
+                        dan gula aren.</p>
+
+                    <li>
+                        <h3 id="bakmi">Bakmi Kepiting</h3>
+                    </li>
+                    <img src="./assets/image/bakmi.jpg" alt="bakmi" class="featured-image">
+                    <p>Makanan ini merupakan salah satu makanan wajib ketika berkunjung ke Pontianak juga. Bakmi kepiting biasanya non-halal dikarenakan adanya penggunaan minyak dan daging babi untuk menambah rasa. Terdapat banyak penjual bakmi di Pontianak,
+                        yang menjadi favorit masing-masing orang tergantung selera.</p>
+
+                    <li>
+                        <h3 id="sotong">Sotong Pangkong</h3>
+                    </li>
+                    <img src="./assets/image/sotong-pangkong.png" alt="sotong" class="featured-image">
+                    <p>Sotong pangkong merupakan salah satu makanan khas kota Pontianak. Bagi wisatawan yang ingin mencoba cita rasa baru dan unik, sotong pangkong ini bisa menjadi pilihan. Makanan ini terdiri dari sotong atau cumi kering dan juga sambal
+                        kacang.
+                    </p>
+                </ol>
+            </article>
+        </div>
+
+        <aside>
+            <article class="profile card2">
+                <div class="head">
+                    <h2>Kota Pontianak</h2>
+                    <p>Kota Pontianak adalah ibu kota provinsi Kalimantan Barat, Indonesia. Kota ini dikenal sebagai Kota Khatulistiwa karena dilalui garis khatulistiwa. Di utara Kota Pontianak, tepatnya Siantan, terdapat Tugu Khatulistiwa yang dibangun
+                        pada tempat yang dilalui garis khatulistiwa.</p>
+                    <figure>
+                        <img src="./assets/image/logo-kota.png" alt="logo" id="logo">
+                        <figcaption>Lambang Kota Pontianak</figcaption>
+                    </figure>
+                </div>
+
+                <section>
+                    <h3>Informasi Lainnya</h3>
+                    <table>
+                        <tr>
+                            <th>Negara</th>
+                            <td>Indonesia</td>
+                        </tr>
+                        <tr>
+                            <th>Hari jadi</th>
+                            <td>23 Oktober 1771</td>
+                        </tr>
+                        <tr>
+                            <th>Luas wilayah</th>
+                            <td>107,82km<sup>2</sup></td>
+                        </tr>
+                        <tr>
+                            <th>Populasi</th>
+                            <td>646.661 jiwa</td>
+                        </tr>
+                        <tr>
+                            <th>Situs web</th>
+                            <td><a href="https://www.pontianakkota.go.id">www.pontianakkota.go.id</a></td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+
+            <article class="profile card2" id="saya">
+                <h2>Profil</h2>
+                <img src="./assets/image/Ryan.jpg" alt="foto" style="width: 40%; height: 60%;">
+                <table style="text-align: left;">
+                    <tr>
+                        <th>Nama</th>
+                        <td>Ryan Ricardo</td>
+                    </tr>
+                    <tr>
+                        <th>Asal</th>
+                        <td>Pontianak</td>
+                    </tr>
+                    <tr>
+                        <th>Status</th>
+                        <td>Mahasiswa</td>
+                    </tr>
+                    <tr>
+                        <th>Universitas</th>
+                        <td>Bina Nusantara kampus Kemanggisan</td>
+                    </tr>
+                    <tr>
+                        <th>ID Google Bangkit</th>
+                        <td>C0050432</td>
+                    </tr>
+                </table>
+            </article>
+        </aside>
+    </main>
+
+    <script src="./assets/styles/index.js"></script>
+    <footer>
+        Ryan Ricardo - C0050432 - Bangkit Academy Cloud Computing Student
+    </footer>
+</body>
+</html>
